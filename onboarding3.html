@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnBoarding</title>
+
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assests/css/variables.css" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+    <link rel="stylesheet" href="./assests/css/responsive.css" />
+    <link rel="stylesheet" href="./assests/css/style-rtl.css" />
+    <link rel="stylesheet" href="./assests/css/onboarding.css ">
+    <link rel="stylesheet" href="./assests/css/onboarding-rtl.css">
+</head>
+
+<body>
+    <main class="d-flex flex-column ">
+        <nav class="mt-4 d-none d-md-block ">
+            <div class="d-flex flex-row align-items-center mx-5">
+                <div class="onboarding-logo">
+
+                    <img src="./assests/images/icons/onboarding-logo.svg" alt="">
+                </div>
+
+                <div class=" nav-btns d-flex flex-row align-items-center justify-content-center ml-auto  ">
+
+                    <div class=" dropdown language-switcher mr-4">
+
+                        <div class="dropdown ">
+                            <button class="btn shadow-none  dropdown-toggle text-white" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <img src="./assests/images/icons/flag-uk.svg" alt="">
+                                English
+                            </button>
+                            <img class="pr-2 pl-2" src="./assests/images/icons/chevron-down-white.svg" alt="">
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style=>
+                                <a class="dropdown-item " href="?lang=en">
+                                    <img class="mr-3" src="./assests/images/icons/flag-uk.svg" alt="">
+                                    English</a>
+                                <a class="dropdown-item" href="?lang=ar">
+                                    <img class="mr-3" src="./assests/images/icons/flag-uk.svg" alt="">
+                                    العربية </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="CTA-border-blue  fw-600 ">
+                        <img src="./assests/images/icons/onboarding-contact-su.svg" alt="">
+                        Contact Us</button>
+                </div>
+            </div>
+        </nav>
+
+        <section class=" onboarding-section flex-grow-1 d-flex align-items-center justify-content-center">
+            <div class="onboarding-container">
+                <div>
+
+                    <div class="d-flex flex-row align-items-center justify-content-between mb-4 position-relative">
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <a class="onboarding-back " href="onboarding2.html"> <img
+                                    src="./assests/images/icons/multistep-form/onboarding-back.svg" alt=""></a>
+                            <h4 class="text-md-center text-left font-20 fw-600 mb-0 d-none">New Investment Account</h4>
+                        </div>
+                        <a class=" fw-500 font-12 d-block d-md-none" style="color: #0D6EFD;">Contact Us</a>
+                    </div>
+
+                    <div class="d-none d-md-flex flex-column align-items-center justify-content-center">
+                        <img src="./assests/images/icons/onboardin-container-man.svg" alt="">
+                        <p class=" fw-600 text-black">Customer Type : Individual</p>
+                    </div>
+                    <div class="form-input left-icon required mt-2" data-label="Account Type">
+                        <div class="input">
+                            <div class="icon">
+                                <img src="./assests/images/icons/onboardin-container-man.svg" alt="">
+                            </div>
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="Individual"
+                                value="Individual">
+                        </div>
+                    </div>
+
+                    <div class="form-input select-search mt-3 required" data-label="Id Category">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="input">
+                                <div class="icon">
+                                    <img src="./assests/images/icons/chevron-down.svg" alt="" />
+                                </div>
+                                <input type="text" autocomplete="off" placeholder="056xxxxxx" />
+                            </div>
+                            <div class="search-list">
+                                <ul>
+                                    <li class="selected" data-value="option-1">phone 1</li>
+                                    <li class="" data-value="option-1">Phone 2</li>
+                                    <li class="" data-value="option-1">Phone 3</li>
+                                    <li class="" data-value="option-1">Phone 4</li>
+                                    <li class="" data-value="option-1">phone 5</li>
+                                    <li class="" data-value="option-1">phone 6</li>
+                                    <li class="" data-value="option-1">phone7 7</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-input required" data-label="Passport Number">
+                        <div class="input">
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="Passport Number">
+                        </div>
+                    </div>
+                    <div class="form-input required" data-label="Date of birth">
+                        <div class="input">
+                            <div class="icon">
+                                <img src="./assests/images/icons/calendar.svg" alt="">
+                            </div>
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="Date of birth">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row justify-content-center align-items-center w-100">
+
+                    <button class="CTA-blue w-100" onclick="window.location='onboarding4.html'"><img class="mr-2 total-arrow"
+                            src="./assests/images/icons/onboard-process-right.svg" alt="">
+                        <span>Process</span></button>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="d-none d-md-flex flex-column justify-content-between px-5 mt-5">
+            <div class="d-flex justify-content-between w-100">
+                <div class=" footer-social-icons d-flex flex-row align-items-center justify-content-between">
+
+                    <img src="./assests/images/icons/LinkedIn.svg" alt="">
+                    <img src="./assests/images/icons/Twitter-X.svg" alt="">
+                    <img src="./assests/images/icons/Facebook.svg" alt="">
+                </div>
+                <div class="">
+                    <h4 class="text-white fw-500">“Discover a New Era of <br> Investment Access”</h4>
+                </div>
+            </div>
+            <div class="mb-3 mt-3">
+                <p class="mb-0 text-white text-center font-12">2023 © AlphaInvest by AlphaCentrix</p>
+            </div>
+
+
+        </footer>
+    </main>
+
+    <script src="./assests/js/jquery.min.js"></script>
+    <script src="./assests/js/popper.min.js"></script>
+
+    <!-- <script src="./assests/js/bootstrap.bundle.min.js"></script> -->
+    <script src="./assests/js/bootstrap.min.js"></script>
+    <script src="./assests/js/custom/formFields.js"></script>
+
+
+</body>
+
+</html>

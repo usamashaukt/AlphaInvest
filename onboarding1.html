@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnBoarding</title>
+
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assests/css/variables.css" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+    <link rel="stylesheet" href="./assests/css/responsive.css" />
+    <link rel="stylesheet" href="./assests/css/style-rtl.css" />
+    <link rel="stylesheet" href="./assests/css/onboarding.css ">
+    <link rel="stylesheet" href="./assests/css/onboarding-rtl.css">
+</head>
+
+<body>
+    <main class="d-flex flex-column ">
+        <nav class="mt-4 d-none d-md-block ">
+            <div class="d-flex flex-row align-items-center mx-5">
+                <div class="onboarding-logo">
+
+                    <img src="./assests/images/icons/onboarding-logo.svg" alt="">
+                </div>
+
+                <div class=" nav-btns d-flex flex-row align-items-center justify-content-center ml-auto ">
+
+                    <div class=" dropdown language-switcher">
+
+                        <div class="dropdown">
+                            <button class="btn shadow-none text-white dropdown-toggle" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <img src="./assests/images/icons/flag-uk.svg" alt="">
+                                English
+                            </button>
+                            <img class="pr-2 pl-2" src="./assests/images/icons/chevron-down-white.svg" alt="">
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style=>
+                                <a class="dropdown-item " href="?lang=en">
+                                    <img class="mr-3" src="./assests/images/icons/flag-uk.svg" alt="">
+                                    English</a>
+                                <a class="dropdown-item" href="?lang=ar">
+                                    <img class="mr-3" src="./assests/images/icons/flag-uk.svg" alt="">
+                                    العربية </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="CTA-border-blue  fw-600 ml-4">
+                        <img src="./assests/images/icons/onboarding-contact-su.svg" alt="">
+                        Contact Us</button>
+                </div>
+            </div>
+        </nav>
+
+        <section
+            class="onboarding-section flex-grow-1 d-flex align-items-md-center align-items-start justify-content-center">
+
+            <div class="onboarding-container">
+                <div>
+                    <div class="d-flex flex-row align-items-center justify-content-between mb-4 position-relative">
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <a class="onboarding-back d-none " href=""> <img
+                                    src="./assests/images/icons/multistep-form/onboarding-back.svg" alt=""></a>
+                            <h4 class="text-md-center text-left font-20 fw-600 mb-0">New Investment Account</h4>
+                        </div>
+                        <a class=" fw-500 font-12 d-block d-md-none" style="color: #0D6EFD;">Contact Us</a>
+                    </div>
+                    <div class="form-input left-icon required select-search mt-3 d-block d-md-none"
+                        data-label="Preferred Language">
+                        <div class="input">
+                            <div class="icon">
+                                <img width="20" src="./assests/images/icons/flag-uk.svg" alt="">
+                            </div>
+
+                            <div class="icon">
+                                <img src="./assests/images/icons/chevron-down.svg" alt="">
+                            </div>
+
+
+
+                            <input type="text" autocomplete="off" placeholder="English" value="English">
+                        </div>
+                        <div class="search-list" style="display: none;">
+                            <ul>
+                                <li class="selected" data-value="option-1">
+                                    <img width="30px" class="pr-2" src="./assests/images/icons/flag-uk.svg" alt="">
+                                    English
+                                </li>
+                                <li class="" data-value="option-1">
+                                    <img width="30px" class="pr-2" src="./assests/images/icons/flag-uk.svg" alt="">
+
+                                    العربية
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="form-input" data-label="Account Type">
+                        <div class="row">
+                            <div class="col flex-grow-0">
+                                <div class="radio-input-text with-icon">
+                                    <input type="radio" id="deposit3" name="radio-text" checked="" hidden="">
+
+                                    <label class="font-14 fw-500 d-flex flex-column " for="deposit3">
+                                        <img width="54" class="mb-2"
+                                            src="./assests/images/icons/onboardin-container-man.svg" alt="">
+                                        <span>Individual</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col flex-grow-0">
+                                <div class="radio-input-text with-icon">
+                                    <input type="radio" id="all3" name="radio-text" hidden="">
+                                    <label class="font-14 fw-500 d-flex flex-column " for="all3">
+                                        <img width="54" class="mb-2" src="./assests/images/icons/corporate-logo.svg"
+                                            alt="">
+                                        <span>Corporate</span>
+
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-input left-icon required mt-2" data-label="Cell/Mobile Number">
+                        <div class="input">
+                            <div class="icon">
+                                <img src="./assests/images/icons/phone.svg" style="opacity: 0.5;" alt="">
+                            </div>
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="056xxxxxx">
+                        </div>
+                    </div>
+                    <div class="form-input left-icon required" data-label="Email">
+                        <div class="input">
+                            <div class="icon">
+                                <img src="./assests/images/icons/mail.svg" style="opacity: 0.5;" alt="">
+                            </div>
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-input left-icon required" data-label="Confirm Email">
+                        <div class="input">
+                            <div class="icon">
+                                <img src="./assests/images/icons/mail.svg" style="opacity: 0.5;" alt="">
+                            </div>
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="Confirm Email">
+                        </div>
+                    </div>
+                    <div class="form-input  mb-5">
+                        <div class="row ">
+                            <div class="col flex-grow-0">
+                                <div class="checkbox-input">
+                                    <input type="checkbox" id="deposit-chk" name="radio-text" checked="" hidden="">
+                                    <label class="font-14 fw-500 h-25" for="deposit-chk"> I Accept the <span
+                                            style="color: #0D6EFD;">Terms and
+                                            Conditions</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row justify-content-center align-items-center w-100">
+
+                    <button class="CTA-blue w-100" onclick="window.location='onboarding2.html'">
+                        <img class="mr-2 total-arrow" src="./assests/images/icons/onboard-process-right.svg" alt="">
+                        <span>Continue</span></button>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <footer class="d-none d-md-flex flex-column justify-content-between px-5 mt-5">
+            <div class="d-flex justify-content-between w-100">
+                <div class=" footer-social-icons d-flex flex-row align-items-center justify-content-between">
+
+                    <img src="./assests/images/icons/LinkedIn.svg" alt="">
+                    <img src="./assests/images/icons/Twitter-X.svg" alt="">
+                    <img src="./assests/images/icons/Facebook.svg" alt="">
+                </div>
+                <div class="">
+                    <h4 class="text-white fw-500">“Discover a New Era of <br> Investment Access”</h4>
+                </div>
+            </div>
+            <div class="mb-3 mt-3">
+                <p class="mb-0 text-white text-center font-12">2023 © AlphaInvest by AlphaCentrix</p>
+            </div>
+
+
+        </footer>
+    </main>
+
+    <script src="./assests/js/jquery.min.js"></script>
+    <script src="./assests/js/popper.min.js"></script>
+
+    <!-- <script src="./assests/js/bootstrap.bundle.min.js"></script> -->
+    <script src="./assests/js/bootstrap.min.js"></script>
+    <script src="./assests/js/custom/formFields.js"></script>
+
+
+</body>
+
+</html>

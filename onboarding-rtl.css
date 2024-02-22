@@ -1,0 +1,142 @@
+html[dir="rtl"] .nav-btns {
+
+    margin-right: auto;
+
+    margin-left: 0 !important;
+}
+
+html[dir="rtl"] .nav-btns .CTA-border-blue {
+
+    margin-right: 24px;
+}
+
+html[dir="rtl"] nav {
+    height: auto;
+}
+
+html[dir="rtl"] .nav-texts {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+html[dir="rtl"] .nav-texts .CTA-blue img {
+    transform: rotate(180deg);
+}
+
+html[dir="rtl"] .multistep-form-tabs>a {
+    margin-right: 0;
+    margin-left: 16px;
+}
+
+html[dir="rtl"] .multistep-form-tabs>a:nth-last-of-type(1) {
+    margin-left: 0 !important;
+}
+
+html[dir="rtl"] .multistep-form-tabs>a .line {
+    margin-left: 0;
+    margin-right: -15px;
+}
+
+html[dir="rtl"] .form-input.left-icon .icon+input {
+    padding: 5px 55px;
+}
+
+html[dir="rtl"] .multistep-form-tabs {
+    text-align: right;
+}
+
+html[dir="rtl"] .multistep-container {
+
+    padding: 0 70px 0 40px;
+
+}
+
+html[dir="rtl"] .multistep-container>div .onboarding-back {
+    right: -100px;
+    transform: translate(-113%, 554%);
+}
+
+
+
+html[dir="rtl"] .onboarding-container>div:nth-last-child(1) {
+    flex-direction: column-reverse;
+}
+
+
+
+html[dir="rtl"] .form-input.left-icon .input>.icon:nth-of-type(1) {
+    left: auto;
+    padding-right: 0;
+    padding-left: 5px;
+    border-left: 1px solid var(--input-left-icon-border-color);
+    border-right: 0;
+    justify-content: flex-start;
+    transform: translate(-50%, -50%);
+}
+
+html[dir="rtl"] .form-input .icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 24px;
+}
+
+html[dir="rtl"] .application-summary .header .icon {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 991px) {
+    html[dir="rtl"] .onboarding-back {
+        margin-left: 6px;
+    }
+
+    html[dir="rtl"] .onboarding-container>div:nth-last-child(1) {
+        flex-direction: column-reverse;
+    }
+
+    html[dir="rtl"] .multistep-container>div .onboarding-back {
+
+        transform: translate(0, 0) !important;
+    }
+
+    html[dir="rtl"] .multistep-container {
+        padding: 20px;
+    }
+
+
+    html[dir="rtl"] .multistep-form .in-progress .icon {
+        margin-right: 0 !important;
+        margin-left: 0.5rem;
+    }
+
+
+    html[dir="rtl"] .multistep-form-tabs>a {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+
+    html[dir="rtl"] .multistep-form-tabs>a .line {
+        margin-left: 0;
+        margin-right: -5px;
+        width: calc(100% + 5px);
+        height: 1.5px;
+    }
+
+    html[dir="rtl"] .multistep-form-tabs>a:nth-last-of-type(1) {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    html[dir="rtl"] .onboarding-back {
+        margin-left: 6px;
+    }
+
+    html[dir="rtl"] .onboarding-container>div:nth-last-child(1) {
+        flex-direction: column-reverse;
+    }
+}

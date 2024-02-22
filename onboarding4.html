@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnBoarding</title>
+
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assests/css/variables.css" />
+  <link rel="stylesheet" href="./assests/css/responsive.css" />
+  <link rel="stylesheet" href="./assests/css/style.css" />
+  <link rel="stylesheet" href="./assests/css/style-rtl.css" />
+  <link rel="stylesheet" href="./assests/css/onboarding.css " />
+  <link rel="stylesheet" href="./assests/css/onboarding-rtl.css">
+</head>
+
+<body>
+  <main class="d-flex flex-column" style="height: 100vh; overflow: hidden">
+    <nav class="d-none d-lg-block">
+      <div class="d-flex flex-row align-items-center mx-5 my-4">
+        <div class="onboarding-logo">
+          <img src="./assests/images/icons/onboarding-logo.svg" alt="" />
+        </div>
+        <div class=" nav-texts ml-auto d-flex justify-content-center align-items-center">
+          <div class="px-2 px-xl-3">
+            <p class="text-white font-16 mb-0">
+              <img src="./assests/images/icons/file-text-nav.svg" alt="" />
+              <span> Application id:</span> 1259
+            </p>
+          </div>
+          <div class="px-2 px-xl-3">
+            <p class="text-white font-16 mb-0">
+              <img src="./assests/images/icons/phone-white.svg" alt="" />
+              <span> Phone Number :</span> +966-540-066448
+            </p>
+          </div>
+          <div class="px-2 px-xl-3">
+            <p class="text-white font-16 mb-0">
+              <img src="./assests/images/icons/mail-white.svg" alt="" />
+              <span> Email :</span> ajksad@gmail.com
+            </p>
+          </div>
+
+          <button class="CTA-blue ml-2 ml-xl-3">
+            Sign Out
+
+            <img class="px-1" src="./assests/images/icons/signout-nav.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="multistep-container">
+      <div class="mobile-nav">
+        <div class="d-flex flex-row align-items-center justify-content-between position-relative ">
+          <div class="d-flex justify-content-between align-items-center">
+            <a class="onboarding-back" href="onboarding3.html">
+              <img src="./assests/images/icons/multistep-form/onboarding-back.svg" alt="" /></a>
+
+            <h4 class="d-lg-none text-md-center text-left font-20 fw-600 mb-0">
+              New Investment Account
+            </h4>
+          </div>
+          <div class="d-block d-lg-none">
+            <a class="profile-btn d-flex justify-content-center align-items-center">
+              <span class="d-flex justify-content-center align-items-center">R</span>
+            </a>
+          </div>
+        </div>
+        <div class="profile-dropdown nactive pt-2" aria-labelledby="dropdownMenuButton">
+          <a class="" href="#">
+            <p class="text-blue font-16 mb-0">
+              <!-- <img src="./assests/images/icons/file-text-nav.svg" alt="" /> -->
+              <span> Application id:</span> 1259
+            </p>
+          </a>
+          <a class="" href="#">
+            <p class="text-blue font-16 mb-0">
+              <!-- <img src="./assests/images/icons/phone-white.svg" alt="" /> -->
+              <span> Phone Number :</span> +966-540-066448
+            </p>
+          </a>
+          <a class="" href="#">
+            <p class="text-blue font-16 mb-0">
+              <!-- <img src="./assests/images/icons/mail-white.svg" alt="" /> -->
+              <span> Email :</span> ajksad@gmail.com
+            </p>
+          </a>
+          <button class="CTA-blue mt-3 mb-2">
+            Sign Out
+
+            <img class="px-1" src="./assests/images/icons/signout-nav.svg" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <div class="d-flex flex-row multistep-form-tabs">
+        <a class="d-flex flex-column in-progress">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/personal-information.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 1</p>
+          <span class="font-14 fw-500">Individual information</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column completed">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/personal-information.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 2</p>
+          <span class="font-14 fw-500">Contact information</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/personal-information.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 3</p>
+          <span class="font-14 fw-500">Professional Information</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/bank-account.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 4</p>
+          <span class="font-14 fw-500">Bank Account Details</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/know-Your-Client.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 5</p>
+          <span class="font-14 fw-500">Know Your Client</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/documents.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 6</p>
+          <span class="font-14 fw-500">Documents</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <!-- <a class="d-flex flex-column">
+                    <div class="row">
+                        <div class="col flex-grow-0">
+                            <div class="icon">
+                                <img src="./assests/images/icons/multistep-form/summary.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col flex-grow-1 d-flex align-items-center">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <p class="font-12 fw-500">Step 7</p>
+                    <span class="font-14 fw-500">Summary</span>
+                    <b class="font-12 fw-600"></b>
+                </a> -->
+      </div>
+      <div class="multistep-form mb-0 mb-lg-5">
+        <div>
+          <div class="d-flex flex-row align-items-center in-progress">
+            <div class="icon mr-2">
+              <img src="./assests/images/icons/multistep-form/personal-information.svg" alt="" />
+            </div>
+            <h2 class="font-18 text-blue mb-0">Individual Information</h2>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="mb-3">
+              <div class="card-header pb-3" id="headingOne">
+                <a class="text-left text-decoration-none fw-500 font-14 d-flex justify-content-between" href=""
+                  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Personal Information
+                  <img class="" src="./assests/images/icons/chevron-down.svg" alt="" />
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="row mr-0 px-3 pt-3">
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="First Name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="First name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Second / Father name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Second/Father Name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Third/ Grandfather name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Third/ Grandfather name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Family Name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="First name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Country of birth">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Country of birth" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Date of birth">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Date of birth" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Do you have multiple nationalities?">
+                      <div class="d-flex flex-row" style="gap: 20px">
+                        <div class="flex-grow-0">
+                          <div class="radio-input-text">
+                            <input type="radio" id="deposit3" name="radio-text" checked="" hidden="" />
+                            <label class="font-14 fw-500" for="deposit3">Yes</label>
+                          </div>
+                        </div>
+                        <div class="flex-grow-0">
+                          <div class="radio-input-text">
+                            <input type="radio" id="all3" name="radio-text" hidden="" />
+                            <label class="font-14 fw-500" for="all3">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="card-header pb-3" id="headingTwo">
+                <a class="text-left text-decoration-none fw-500 font-14 d-flex justify-content-between" href=""
+                  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  Passport Information
+                  <img class="" src="./assests/images/icons/chevron-down.svg" alt="" />
+                </a>
+              </div>
+
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="row mr-0 px-3 pt-3">
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="First Name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="First name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Second / Father name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Second/Father Name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Third/ Grandfather name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Third/ Grandfather name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Family Name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="First name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Country of birth">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Country of birth" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Date of birth">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Date of birth" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Do you have multiple nationalities?">
+                      <div class="d-flex flex-row" style="gap: 20px">
+                        <div class="flex-grow-0">
+                          <div class="radio-input-text">
+                            <input type="radio" id="deposit3" name="radio-text" checked="" hidden="" />
+                            <label class="font-14 fw-500" for="deposit3">Yes</label>
+                          </div>
+                        </div>
+                        <div class="flex-grow-0">
+                          <div class="radio-input-text">
+                            <input type="radio" id="all3" name="radio-text" hidden="" />
+                            <label class="font-14 fw-500" for="all3">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="card-header" id="headingThree">
+                <a class="text-left text-decoration-none fw-500 font-14 d-flex justify-content-between" href=""
+                  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                  aria-controls="collapseThree">
+                  Legal Gaurdian Information
+                  <img class="" src="./assests/images/icons/chevron-down.svg" alt="" />
+                </a>
+              </div>
+
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="row mr-0 px-3 pt-3">
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="First Name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="First name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Second / Father name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Second/Father Name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Third/ Grandfather name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Third/ Grandfather name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Family Name (English)">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="First name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Country of birth">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Country of birth" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Date of birth">
+                      <div class="input">
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="Date of birth" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-4">
+                    <div class="form-input required" data-label="Do you have multiple nationalities?">
+                      <div class="d-flex flex-row" style="gap: 20px">
+                        <div class="flex-grow-0">
+                          <div class="radio-input-text">
+                            <input type="radio" id="deposit3" name="radio-text" checked="" hidden="" />
+                            <label class="font-14 fw-500" for="deposit3">Yes</label>
+                          </div>
+                        </div>
+                        <div class="flex-grow-0">
+                          <div class="radio-input-text">
+                            <input type="radio" id="all3" name="radio-text" hidden="" />
+                            <label class="font-14 fw-500" for="all3">No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="d-flex justify-content-between justify-content-lg-start my-0 my-lg-3" style="gap: 20px">
+            <button class="CTA-border-blue">Save as Draft</button>
+            <button class="CTA-blue text-white" onclick="window.location='onboarding5.html'">
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="d-none d-md-flex flex-row justify-content-center">
+      <div class="">
+        <p class="py-2 mb-0 text-white text-center font-12">
+          2023 © AlphaInvest by AlphaCentrix
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./assests/js/jquery.min.js"></script>
+  <script src="./assests/js/popper.min.js"></script>
+  <script src="./assests/js/bootstrap.min.js"></script>
+  <script src="./assests/js/custom/formFields.js"></script>
+  <script src="./assests/js/custom/onboading-nav.js"></script>
+</body>
+
+</html>

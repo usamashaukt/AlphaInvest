@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnBoarding</title>
+
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assests/css/variables.css" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+    <link rel="stylesheet" href="./assests/css/responsive.css" />
+    <link rel="stylesheet" href="./assests/css/style-rtl.css" />
+    <link rel="stylesheet" href="./assests/css/onboarding.css ">
+    <link rel="stylesheet" href="./assests/css/onboarding-rtl.css">
+
+</head>
+
+<body>
+    <main class="d-flex flex-column ">
+        <nav class="mt-4 d-none d-md-block ">
+            <div class="d-flex flex-row align-items-center mx-5">
+                <div class="onboarding-logo">
+
+                    <img src="./assests/images/icons/onboarding-logo.svg" alt="">
+                </div>
+
+                <div class=" nav-btns d-flex flex-row align-items-center justify-content-center ml-auto ">
+
+                    <div class=" dropdown language-switcher mr-4">
+
+                        <div class="dropdown">
+                            <button class="btn shadow-none text-white dropdown-toggle" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <img src="./assests/images/icons/flag-uk.svg" alt="">
+                                English
+                            </button>
+                            <img class="pr-2 pl-2" src="./assests/images/icons/chevron-down-white.svg" alt="">
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style=>
+                                <a class="dropdown-item " href="?lang=en">
+                                    <img class="mr-3" src="./assests/images/icons/flag-uk.svg" alt="">
+                                    English</a>
+                                <a class="dropdown-item" href="?lang=ar">
+                                    <img class="mr-3" src="./assests/images/icons/flag-uk.svg" alt="">
+                                    العربية </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="CTA-border-blue  fw-600 ">
+                        <img src="./assests/images/icons/onboarding-contact-su.svg" alt="">
+                        Contact Us</button>
+                </div>
+            </div>
+        </nav>
+
+        <section class=" onboarding-section flex-grow-1 d-flex align-items-center justify-content-center">
+
+            <div class="onboarding-container">
+                <div>
+                    <div class="d-flex flex-row align-items-center justify-content-between mb-4 position-relative">
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <a class="onboarding-back  " href="onboarding1.html"> <img
+                                    src="./assests/images/icons/multistep-form/onboarding-back.svg" alt=""></a>
+                            <h4 class="text-md-center text-left font-20 fw-600 mb-0">New Investment Account</h4>
+                        </div>
+                        <a class=" fw-500 font-12 d-block d-md-none" style="color: #0D6EFD;">Contact Us</a>
+                    </div>
+
+                    <div class="form-input left-icon required mt-2" data-label="Cell/Mobile Number">
+                        <div class="input">
+                            <div class="icon">
+                                <img src="./assests/images/icons/phone.svg" style="opacity: 0.5;" alt="">
+                            </div>
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="056xxxxxx">
+                        </div>
+                    </div>
+                    <div class="form-input left-icon required" data-label="Email">
+                        <div class="input">
+                            <div class="icon">
+                                <img src="./assests/images/icons/mail.svg" style="opacity: 0.5;" alt="">
+                            </div>
+                            <input type="text" class="font-16 fw-400" name="" id="" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="text-center text-black fw-500 mt-2 mb-3 ">Enter the security code sent by Email/SMS
+                    </div>
+
+                    <div class="security-code-input  d-flex justify-content-center align-items-center">
+                        <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+                        <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+                        <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+                        <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+                    </div>
+                    <div class=" fw-500 font-24 text-center mt-3 mb-3">
+                        <span>1:59</span>
+                    </div>
+
+                </div>
+
+
+                <div class="d-flex justify-content-center my-2" style="gap: 20px">
+                    <button class="CTA-border-blue">
+                        <img class="total-arrow" src="./assests/images/icons/resend-code.svg" alt="">
+                        Resend Code</button>
+                    <button class="CTA-blue text-white" onclick="window.location='onboarding3.html'">
+                        <img class="total-arrow" src="./assests/images/icons/onboard-process-right.svg" alt="">
+                        Confirm Code</button>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <footer class="d-none d-md-flex flex-column justify-content-between px-5 mt-5">
+            <div class="d-flex justify-content-between w-100">
+                <div class=" footer-social-icons d-flex flex-row align-items-center justify-content-between">
+
+                    <img src="./assests/images/icons/LinkedIn.svg" alt="">
+                    <img src="./assests/images/icons/Twitter-X.svg" alt="">
+                    <img src="./assests/images/icons/Facebook.svg" alt="">
+                </div>
+                <div class="">
+                    <h4 class="text-white fw-500">“Discover a New Era of <br> Investment Access”</h4>
+                </div>
+            </div>
+            <div class="mb-3 mt-3">
+                <p class="mb-0 text-white text-center font-12">2023 © AlphaInvest by AlphaCentrix</p>
+            </div>
+
+
+        </footer>
+    </main>
+
+    <script src="./assests/js/jquery.min.js"></script>
+    <script src="./assests/js/popper.min.js"></script>
+
+    <!-- <script src="./assests/js/bootstrap.bundle.min.js"></script> -->
+    <script src="./assests/js/bootstrap.min.js"></script>
+    <script src="./assests/js/custom/formFields.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+html[dir="rtl"] * {
+    direction: rtl;
+}
+
+html[dir="rtl"] .notification {
+    left: 20%;
+    right: auto;
+}
+
+html[dir="rtl"] .right-pane .s-table .row>div:nth-child(2) {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+
+html[dir="rtl"] .sidebar-link {
+    text-align: right;
+}
+
+html[dir="rtl"] .sidebar-dropdown .ddown a {
+    margin: 3px auto 3px 0;
+}
+
+html[dir="rtl"] .sidebar-dropdown .ddown a:nth-of-type(1) {
+    margin-top: 0 !important;
+}
+
+html[dir="rtl"] .sidebar-dropdown .ddown a:nth-last-of-type(1) {
+    margin-bottom: 0 !important;
+}
+
+html[dir="rtl"] .sidebar-dropdown .ddown::before {
+    right: 24.5px;
+    left: auto;
+}
+
+html[dir="rtl"] .sidebar-dropdown .sidebar-link .text::after {
+    right: unset;
+    left: 8px;
+}
+
+html[dir="rtl"] .sidebar-dropdown .sidebar-link .text span {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+html[dir="rtl"] .sidebar.sidebar-close {
+    transform: translateX(150%);
+}
+
+html[dir="rtl"] button.sidebar-toggler-mobile {
+    transform: rotate(180deg);
+}
+
+html[dir="rtl"] .total-arrow {
+    transform: rotate(180deg);
+}
+
+html[dir="rtl"] .sidebar-link .text span {
+    padding-right: 0 !important;
+    padding-left: 15px;
+}
+
+
+html[dir="rtl"] .form-input .icon {
+    left: 0px;
+    right: auto;
+}
+
+html[dir="rtl"] .form-input .icon+input {
+    padding-right: 22px;
+    padding-left: 45px;
+}
+
+html[dir="rtl"] .form-input.error::after,
+html[dir="rtl"] .form-input.validating::after {
+    background-position: right 82%;
+    right: 0;
+    padding-right: 16px;
+    padding-left: 0;
+    text-align: right;
+}
+
+html[dir="rtl"] .form-input.search .left-icon {
+    right: auto;
+    left: 10px;
+}
+
+html[dir="rtl"] .form-input.select-search .search-list ul li.selected::after {
+    left: 8px;
+    right: auto;
+}
+
+html[dir="rtl"] .tab-btns {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .tab-btns button:nth-of-type(1) {
+    border-radius: 14px 0px 0px 14px;
+}
+
+html[dir="rtl"] .tab-btns button:nth-last-of-type(1) {
+    border-radius: 0px 14px 14px 0px;
+}
+
+html[dir="rtl"] .pie-chart .data>div {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .line-chart .labels .label {
+    justify-content: flex-end;
+}
+
+html[dir="rtl"] .s-table table thead tr th::after {
+    left: 1px;
+    right: auto;
+}
+
+html[dir="rtl"] .s-table .drag-drop img {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+html[dir="rtl"] .s-table .drag-drop .keywords {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+html[dir="rtl"] .s-table table thead th {
+    text-align: right;
+}
+
+html[dir="rtl"] .s-table table thead th span {
+    margin-right: 17px;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .s-table table .form-input .checkbox-input {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+html[dir="rtl"] .s-table table tbody.ddown tr>*:nth-of-type(2) {
+    padding-right: 34px;
+    padding-left: 0;
+}
+
+/* ------------------------------------------Responsive.css------------------------------------------------------------------------------ */
+@media screen and (min-width: 992px) {
+
+    html[dir="rtl"] .sidebar.sidebar-close {
+        max-width: 251px;
+        transform: none;
+    }
+
+    html[dir="rtl"] .sidebar>div>div {
+        width: calc(100% - 16px);
+        margin: 0 16px 0 0;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .sidebar.sidebar-collapse {
+        max-width: 92px;
+        overflow: visible;
+    }
+
+    html[dir="rtl"] .sidebar-toggler.sidebar-toggler-desktop.sidebar-collapse {
+        transform: rotate(0deg) !important;
+    }
+
+    html[dir="rtl"] .sidebar-toggler.sidebar-toggler-desktop {
+        flex-direction: row-reverse !important;
+        transform: rotate(180deg) !important;
+    }
+
+    html[dir="rtl"] .sidebar.sidebar-collapse .sidebar-item:hover .sidebar-link .text {
+        left: 0;
+        transform: translate(calc(-20% - 25px), -50%) !important;
+    }
+
+    html[dir="rtl"] .sidebar.sidebar-collapse .sidebar-dropdown .ddown {
+        left: 0;
+        right: auto;
+    }
+
+    html[dir="rtl"] .sidebar.sidebar-collapse .sidebar-dropdown .ddown>div {
+        padding-top: 20px;
+    }
+}

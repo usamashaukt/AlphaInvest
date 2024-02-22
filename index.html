@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlphaInvest</title>
+
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assests/css/variables.css" />
+  <link rel="stylesheet" href="./assests/css/style.css" />
+  <link rel="stylesheet" href="./assests/css/style-rtl.css">
+  <link rel="stylesheet" href="./assests/css/responsive.css" />
+</head>
+
+<body>
+  <div class="body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="btn px-0 sidebar-toggler sidebar-toggler-desktop shadow-none d-none d-lg-flex">
+        <div class="">
+          <img src="./assests/images/icons/sidebar-toggler.svg" alt="" />
+          <img src="./assests/images/icons/chevron-left.svg" alt="" />
+        </div>
+      </button>
+      <button class="btn px-0 sidebar-toggler sidebar-toggler-mobile sidebar-close shadow-none d-block d-lg-none">
+        <div class="">
+          <img class="arrow" src="./assests/images/icons/menu-arrow.svg" alt="" />
+          <img class="non-arrow" src="./assests/images/icons/menu.svg" alt="" />
+        </div>
+      </button>
+
+      <a href="">
+        <img class="logo d-none d-lg-flex" src="./assests/images/icons/Logo.svg" alt="" />
+      </a>
+
+      <div class="mr-auto d-none d-lg-flex flex-column px-lg-5 px-sm-0">
+        <a class="font-16 fw-500 text-black py-0" href="#"> Ravi Kumar </a>
+        <a class="font-16 fw-400 text-black py-0" href="#">ravikumar@yopmail.com
+        </a>
+      </div>
+
+      <div class="mx-auto d-flex flex-row d-lg-none">
+        <img src="./assests/images/icons/dashboard.svg" alt="" />
+        <div>
+          <span class="pl-2 text-blue font-16 fw-500">Dashboard</span>
+        </div>
+      </div>
+
+      <div class="form-input select-search d-none d-lg-block" data-label="">
+        <div class="input">
+          <div class="icon">
+            <img src="./assests/images/icons/chevron-down.svg" alt="" />
+          </div>
+          <input type="text" placeholder="Select Impersonate" />
+        </div>
+        <div class="search-list">
+          <ul>
+            <li class="selected" data-value="option-1">option 1</li>
+            <li class="" data-value="option-1">option 2</li>
+            <li class="" data-value="option-1">option 3</li>
+            <li class="" data-value="option-1">option 4</li>
+            <li class="" data-value="option-1">option 5</li>
+            <li class="" data-value="option-1">option 6</li>
+            <li class="" data-value="option-1">option 7</li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-none flex-row justify-content-between d-lg-flex px-3">
+        <a class="btn shadow-none position-relative">
+          <img src="./assests/images/icons/tabler_message-circle-2.svg" alt="" />
+          <span class="notification d-flex justify-content-center align-items-center position-absolute">2</span>
+        </a>
+        <a class="btn shadow-none position-relative">
+          <img src="./assests/images/icons/bell.svg" alt="" />
+          <span class="notification d-flex justify-content-center align-items-center position-absolute">2</span>
+        </a>
+      </div>
+
+      <a href="" class="profile-btn d-flex justify-content-center align-items-center">
+        <span class="d-flex justify-content-center align-items-center">R</span>
+      </a>
+    </nav>
+
+    <main class="main-sec">
+      <div class="d-flex flex-row">
+        <div class="sidebar sidebar-close">
+          <div>
+            <div class="" id="sidebar-accordion">
+              <div class="sidebar-item sidebar-dropdown">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-dashboard" aria-expanded="false"
+                  aria-controls="sidebar-dashboard">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/dashboard-white.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Dashboard</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-dashboard" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Menu 1</a>
+                    <a class="font-12 fw-500" href="">Menu 1</a>
+                    <a class="font-12 fw-500" href="">Menu 1</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-item">
+                <a href="" class="sidebar-link active">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/fund-distributor.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Fund Distributor</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-item">
+                <a href="" class="sidebar-link">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/fund-distributor.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Fund Distributor</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-fund-order" aria-expanded="false"
+                  aria-controls="sidebar-fund-order">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/fund order.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Fund Order</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-fund-order" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-client-info" aria-expanded="false"
+                  aria-controls="sidebar-client-info">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/client info.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Client Info</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-client-info" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-saving-plan" aria-expanded="false"
+                  aria-controls="sidebar-saving-plan">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/fund order.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Saving Plans</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-saving-plan" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-reports" aria-expanded="false"
+                  aria-controls="sidebar-reports">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/reports.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Reports</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-reports" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-item">
+                <a href="" class="sidebar-link">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/statements.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Statement</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-rm-dash" aria-expanded="false"
+                  aria-controls="sidebar-rm-dash">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/rm.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">RM Dashboard</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-rm-dash" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-item">
+                <a href="" class="sidebar-link">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/statements.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Interaction</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-refer" aria-expanded="false"
+                  aria-controls="sidebar-refer">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/reference info.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Reference Info</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-refer" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-manage-user" aria-expanded="false"
+                  aria-controls="sidebar-manage-user">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/rm.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">Manage User</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-manage-user" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-item sidebar-dropdown active">
+                <a class="sidebar-link" data-toggle="collapse" data-target="#sidebar-general-settings"
+                  aria-expanded="false" aria-controls="sidebar-general-settings">
+                  <div class="d-flex flex-row justify-content-start align-items-center flex-grow-1">
+                    <div class="icon">
+                      <img src="./assests/images/icons/rm.svg" alt="" />
+                    </div>
+
+                    <p class="text font-14 fw-500 text-white mb-0">
+                      <span class="">RM Dashboard</span>
+                    </p>
+                  </div>
+                </a>
+
+                <div id="sidebar-general-settings" class="collapse ddown" data-parent="#sidebar-accordion">
+                  <div class="d-flex flex-column">
+                    <a class="font-12 fw-500 active" href="">Cash Order</a>
+                    <a class="font-12 fw-500" href="">New Order</a>
+                    <a class="font-12 fw-500" href="">Funds Search</a>
+                    <a class="font-12 fw-500" href="">Orders Dashboard</a>
+                    <a class="font-12 fw-500" href="">Secondary Market</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-pane">
+          <div class="row">
+            <div class="col">
+              <div class="tab-btns mt-3">
+                <button class="active">Summary</button>
+                <button>Investment</button>
+                <button class="">Historical Activity</button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-input search mr-lg-4 d-flex align-items-center mt-3 " data-label="">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/clear.svg" alt="" />
+                  </div>
+                  <div class="left-icon">
+                    <img src="./assests/images/icons/search.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="" placeholder="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="form-input validating required mt-3" data-label="Code">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/calendar.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="" placeholder="code" />
+                </div>
+              </div>
+              <!-- <div class="form-input select-search" data-label="select">
+                  <div class="input">
+                    <div class="icon">
+                      <img
+                        src="./assests/images/icons/chevron-down.svg"
+                        alt=""
+                      />
+                    </div>
+                    <input type="text" />
+                  </div>
+                  <div class="search-list">
+                    <ul>
+                      <li class="selected" data-value="option-1">option 1</li>
+                      <li class="" data-value="option-1">option 2</li>
+                      <li class="" data-value="option-1">option 3</li>
+                      <li class="" data-value="option-1">option 4</li>
+                      <li class="" data-value="option-1">option 5</li>
+                      <li class="" data-value="option-1">option 6</li>
+                      <li class="" data-value="option-1">option 7</li>
+                    </ul>
+                  </div>
+                </div> -->
+              <div class="form-input" data-label="Date">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/calendar.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="" placeholder="calendar" />
+                </div>
+              </div>
+              <div class="form-input" data-label="Phone No.">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/phone.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="" placeholder="Phone No" />
+                </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="form-input" data-label="Checkbox">
+                  <div class="row">
+                    <div class="col flex-grow-0">
+                      <div class="checkbox-input">
+                        <input type="checkbox" id="deposit-chk" name="radio-text" checked hidden />
+                        <label class="font-14 fw-500" for="deposit-chk"></label>
+                      </div>
+                    </div>
+                    <div class="col flex-grow-0 p-0">
+                      <div class="checkbox-input">
+                        <input type="checkbox" id="all-chk" name="radio-text" hidden />
+                        <label class="font-14 fw-500 text-black" for="all-chk"></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-input" data-label="Switch">
+                  <div class="switch-input">
+                    <input type="checkbox" id="switch-1" checked hidden />
+                    <label class="font-14 fw-500 mb-2" for="switch-1"></label>
+                  </div>
+                </div>
+                <div class="form-input" data-label="">
+                  <div class="row">
+                    <div class="col flex-grow-0">
+                      <div class="radio-input">
+                        <input type="radio" id="deposit" name="radio" checked hidden />
+                        <label class="font-14 fw-500" for="deposit">Deposit</label>
+                      </div>
+                    </div>
+                    <div class="col flex-grow-0">
+                      <div class="radio-input">
+                        <input type="radio" id="all" name="radio" hidden />
+                        <label class="font-14 fw-500" for="all">All</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="form-input validating required " data-label="validating input">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/calendar.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="" placeholder="calendar text" />
+                </div>
+              </div>
+              <div class="form-input error required " data-label="Date Input">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/calendar.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="calendar-test" placeholder="calendar" />
+                </div>
+              </div>
+
+              <div class="form-input error  ">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/calendar.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="" placeholder="calendar" />
+                </div>
+              </div>
+
+              <div class="form-input search " data-label="Search input">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/clear.svg" alt="" />
+                  </div>
+                  <div class="left-icon">
+                    <img src="./assests/images/icons/search.svg" alt="" />
+                  </div>
+                  <input type="text" class="font-16 fw-400" name="" id="" placeholder="calendar" />
+                </div>
+              </div> -->
+
+              <!-- <div class="form-input required" data-label="Address">
+                <div class="input">
+                  <textarea placeholder="Address One line" name="" id=""></textarea>
+                </div>
+              </div> -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="form-input select-search mt-3" data-label="Type">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/chevron-down.svg" alt="" />
+                  </div>
+                  <input type="text" autocomplete="off" />
+                </div>
+                <div class="search-list">
+                  <ul>
+                    <li class="selected" data-value="option-1">phone 1</li>
+                    <li class="" data-value="option-1">Phone 2</li>
+                    <li class="" data-value="option-1">Phone 3</li>
+                    <li class="" data-value="option-1">Phone 4</li>
+                    <li class="" data-value="option-1">phone 5</li>
+                    <li class="" data-value="option-1">phone 6</li>
+                    <li class="" data-value="option-1">phone7 7</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- <div class="form-input required" data-label="Radio Input">
+                <div class="row">
+                  <div class="col flex-grow-0">
+                    <div class="radio-input">
+                      <input type="radio" id="deposit" name="radio" checked hidden />
+                      <label class="font-14 fw-500" for="deposit">Deposit</label>
+                    </div>
+                  </div>
+                  <div class="col flex-grow-0">
+                    <div class="radio-input">
+                      <input type="radio" id="all" name="radio" hidden />
+                      <label class="font-14 fw-500" for="all">All</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-input disabled" data-label="Radio Input (Disabled)">
+                <div class="row">
+                  <div class="col flex-grow-0">
+                    <div class="radio-input">
+                      <input type="radio" id="deposit-d" name="radio-disabled" checked hidden />
+                      <label class="font-14 fw-500" for="deposit-d">Deposit</label>
+                    </div>
+                  </div>
+                  <div class="col flex-grow-0">
+                    <div class="radio-input">
+                      <input type="radio" id="all-d" name="radio-disabled" hidden />
+                      <label class="font-14 fw-500" for="all-d">All</label>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="form-input required" data-label="Radio Input with text">
+                <div class="row mt-4">
+                  <div class="col flex-grow-0">
+                    <div class="radio-input-text">
+                      <input type="radio" id="deposit3" name="radio-text" checked hidden />
+                      <label class="font-14 fw-500" for="deposit3">Quantity</label>
+                    </div>
+                  </div>
+                  <div class="col flex-grow-0">
+                    <div class="radio-input-text">
+                      <input type="radio" id="all3" name="radio-text" hidden />
+                      <label class="font-14 fw-500" for="all3">Amount</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="form-input disabled" data-label="Radio Input with text (Disabled)">
+                <div class="row">
+                  <div class="col flex-grow-0">
+                    <div class="radio-input-text">
+                      <input type="radio" id="deposit3" name="radio-text" checked hidden />
+                      <label class="font-14 fw-500" for="deposit3">Deposit</label>
+                    </div>
+                  </div>
+                  <div class="col flex-grow-0">
+                    <div class="radio-input-text">
+                      <input type="radio" id="all3" name="radio-text" hidden />
+                      <label class="font-14 fw-500" for="all3">All</label>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- <div class="form-input required" data-label="Checkbox input">
+                <div class="row">
+                  <div class="col flex-grow-0">
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="deposit-chk" name="radio-text" checked hidden />
+                      <label class="font-14 fw-500" for="deposit-chk">Deposit</label>
+                    </div>
+                  </div>
+                  <div class="col flex-grow-0">
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="all-chk" name="radio-text" hidden />
+                      <label class="font-14 fw-500 text-black" for="all-chk">All</label>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- <div class="form-input required disabled validating" data-label="Checkbox (Disabled) Validating">
+                <div class="row">
+                  <div class="col flex-grow-0">
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="deposit-chk" name="radio-text" checked hidden />
+                      <label class="font-14 fw-500" for="deposit-chk">Deposit</label>
+                    </div>
+                  </div>
+                  <div class="col flex-grow-0">
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="all-chk" name="radio-text" hidden />
+                      <label class="font-14 fw-500 text-black" for="all-chk">All</label>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- <div class="form-input required" data-label="Switch Active">
+                <div class="switch-input">
+                  <input type="checkbox" id="switch-1" checked hidden />
+                  <label class="font-14 fw-500" for="switch-1">Deposit</label>
+                </div>
+              </div> -->
+
+              <!-- <div class="form-input required" data-label="Switch Inactive">
+                <div class="switch-input">
+                  <input type="checkbox" id="switch-2" hidden />
+                  <label class="font-14 fw-500" for="switch-2">Deposit</label>
+                </div>
+              </div> -->
+
+              <!-- <div class="form-input required disabled" data-label="Switch Disabled">
+                <div class="switch-input">
+                  <input type="checkbox" id="switch-3" checked hidden />
+                  <label class="font-14 fw-500" for="switch-3">Deposit</label>
+                </div>
+              </div> -->
+            </div>
+            <div class="col-lg-4">
+              <div class="form-input required mt-3" data-label="Address">
+                <div class="input">
+                  <textarea placeholder="Address One line" name="" id=""></textarea>
+                </div>
+              </div>
+              <div class="form-input" data-label="Password">
+                <div class="input">
+                  <div class="icon">
+                    <img src="./assests/images/icons/eye.svg" alt="" />
+                  </div>
+                  <input type="password" class="font-16 fw-400" name="" id="" placeholder="password" />
+                </div>
+              </div>
+              <div class="d-flex my-2" style="gap: 20px">
+                <button class="CTA-border-blue">Back</button>
+                <button class="CTA-blue">Add</button>
+              </div>
+              <!-- <div class="d-flex my-2">
+                <button class="CTA-border-blue disabled">Back</button>
+                <button class="CTA-blue disabled">Add</button>
+              </div> -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="pie-chart">
+                <h3 class="font-16 text-black fw-500 text-center">
+                  Industry Sector Allocation
+                </h3>
+                <canvas style="width: 100%; max-width: 400px"></canvas>
+                <div class="data">
+                  <div class="pie">
+                    <span class="bgcolor" style="background-color: green">
+                    </span>
+                    <p>
+                      <span class="label">Communication</span> -
+                      <span class="percentage">10</span>%
+                    </p>
+                  </div>
+                  <div class="pie">
+                    <span class="bgcolor" style="background-color: red">
+                    </span>
+                    <p>
+                      <span class="label">Communication</span> -
+                      <span class="percentage">20</span>%
+                    </p>
+                  </div>
+                  <div class="pie">
+                    <span class="bgcolor" style="background-color: yellow">
+                    </span>
+                    <p>
+                      <span class="label">Communication</span> -
+                      <span class="percentage">20</span>%
+                    </p>
+                  </div>
+                  <div class="pie">
+                    <span class="bgcolor" style="background-color: blue">
+                    </span>
+                    <p>
+                      <span class="label">Communication</span> -
+                      <span class="percentage">20</span>%
+                    </p>
+                  </div>
+                  <div class="pie">
+                    <span class="bgcolor" style="background-color: blueviolet">
+                    </span>
+                    <p>
+                      <span class="label">Communication</span> -
+                      <span class="percentage">20</span>%
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="line-chart">
+                <h3 class="font-16 text-black fw-500 text-center">
+                  Historical MV vs Net Contributors/Withdrawals
+                </h3>
+
+                <canvas style="width: 100%; max-width: 400px" id="barChart"></canvas>
+                <div class="labels"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="s-table">
+                <div class="row mb-3">
+                  <div class="col-lg-4">
+                    <div class="form-input search mb-0">
+                      <div class="input">
+                        <div class="icon">
+                          <img src="./assests/images/icons/clear.svg" alt="" />
+                        </div>
+                        <div class="left-icon">
+                          <img src="./assests/images/icons/search.svg" alt="" />
+                        </div>
+                        <input type="text" class="font-16 fw-400" name="" id="" placeholder="calendar" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-flex justify-content-end align-items-center ml-auto">
+                    <button class="export-btn">
+                      <img src="./assests/images/icons/export.svg" alt="" />
+                      Export
+                    </button>
+                  </div>
+                </div>
+                <div class="drag-drop">
+                  <img src="./assests/images/icons/drag-drop.svg" alt="" />
+                  <p class="placeholder">Drage here to set row groups</p>
+                </div>
+                <div class="table">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                        </th>
+                        <th>Order No <span></span></th>
+                        <th>Portfolio <span></span></th>
+                        <th>Type <span></span></th>
+                        <th>Fund Symbol <span></span></th>
+                        <th>Order Status <span></span></th>
+                        <th>Quantity <span></span></th>
+                        <th>NAV Price <span></span></th>
+                        <th>Fees <span></span></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                        </td>
+                        <td>654</td>
+                        <td>RVNL</td>
+                        <td>Bid</td>
+                        <td>
+                          <span class="status" style="background-color: #d3e6ff">Created</span>
+                        </td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="s-table">
+                <div class="drag-drop">
+                  <img src="./assests/images/icons/drag-drop.svg" alt="" />
+                  <span class="keywords">Name</span>
+                </div>
+                <div class="table">
+                  <table class="accordion" id="table-1">
+                    <thead>
+                      <tr>
+                        <th>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                        </th>
+                        <th>Group By<span></span></th>
+                        <th>Symbol <span></span></th>
+                        <th>Asset Class <span></span></th>
+                        <th>Quantity <span></span></th>
+                        <th>Unit Cost <span></span></th>
+                        <th>Total Cost <span></span></th>
+                        <th>Market Value <span></span></th>
+                        <th>Allocation <span></span></th>
+                      </tr>
+                    </thead>
+                    <tbody type="button" data-toggle="collapse" data-target="#TableRow1" aria-expanded="true"
+                      aria-controls="TableRow1">
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tbody id="TableRow1" class="collapse ddown" data-parent="#table-1">
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                        <td>654</td>
+                        <td>RVNL</td>
+                        <td>Bid</td>
+                        <td>44</td>
+                        <td>Bid</td>
+                        <td>24,450,250,555</td>
+                        <td>46%</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                        <td>654</td>
+                        <td>RVNL</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>24,450,250,555</td>
+                        <td>46%</td>
+                      </tr>
+                      <tr class="total">
+                        <td></td>
+                        <td>
+                          Subtotal
+                          <img class="total-arrow" src="./assests/images/icons/total.svg" alt="" />
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>24,450,250,555</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                    <tbody type="button" data-toggle="collapse" data-target="#TableRow2" aria-expanded="true"
+                      aria-controls="TableRow2">
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                    <tbody id="TableRow2" class="collapse ddown" data-parent="#table-1">
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                        <td>654</td>
+                        <td>RVNL</td>
+                        <td>Bid</td>
+                        <td>44</td>
+                        <td>Bid</td>
+                        <td>24,450,250,555</td>
+                        <td>46%</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                        <td>654</td>
+                        <td>RVNL</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>24,450,250,555</td>
+                        <td>46%</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                        <td>654</td>
+                        <td>RVNL</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>24,450,250,555</td>
+                        <td>46%</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>
+                          <div class="form-input">
+                            <div class="checkbox-input">
+                              <input type="checkbox" id="table-inp-1" hidden />
+                              <label for="table-inp-1"></label>
+                            </div>
+                          </div>
+                          Al Rajhi Bank (2)
+                        </td>
+                        <td>654</td>
+                        <td>RVNL</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>Bid</td>
+                        <td>24,450,250,555</td>
+                        <td>46%</td>
+                      </tr>
+                      <tr class="total">
+                        <td></td>
+                        <td>
+                          Subtotal
+                          <img class="total-arrow" src="./assests/images/icons/total.svg" alt="" />
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>24,450,250,555</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <tr class="total">
+                        <td></td>
+                        <td>
+                          Total
+                          <img  class="total-arrow" src="./assests/images/icons/total.svg" alt="" />
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>24,450,250,555</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section></section>
+  </div>
+
+  <script src="./assests/js/jquery.min.js"></script>
+  <!-- <script src="./assests/js/bootstrap.bundle.min.js"></script> -->
+  <script src="./assests/js/bootstrap.min.js"></script>
+  <script src="./assests/js/jquery-searchbox.js"></script>
+  <!-- <script src="./assests/js/popper.min.js"></script> -->
+  <script src="./assests/js/custom/sidebar.js"></script>
+  <script src="./assests/js/custom/formFields.js"></script>
+  <script>
+    $(".js-searchBox").searchBox({ elementWidth: "auto" });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+  <script src="./assests/js/custom/pieChart.js"></script>
+  <script src="./assests/js/custom/lineChart.js"></script>
+  <script src="./assests/js/bootstrap-hijri-datetimepicker.js"></script>
+</body>
+
+</html>

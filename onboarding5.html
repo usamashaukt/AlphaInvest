@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnBoarding</title>
+
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assests/css/variables.css" />
+  <link rel="stylesheet" href="./assests/css/responsive.css" />
+  <link rel="stylesheet" href="./assests/css/style.css" />
+  <link rel="stylesheet" href="./assests/css/style-rtl.css" />
+  <link rel="stylesheet" href="./assests/css/onboarding.css " />
+  <link rel="stylesheet" href="./assests/css/onboarding-rtl.css " />
+</head>
+
+<body>
+  <main class="d-flex flex-column" style="height: 100vh; overflow: hidden">
+    <nav class="d-none d-lg-block">
+      <div class="d-flex flex-row align-items-center mx-5 my-4">
+        <div class="onboarding-logo">
+          <img src="./assests/images/icons/onboarding-logo.svg" alt="" />
+        </div>
+        <div class=" nav-texts ml-auto d-flex justify-content-center align-items-center">
+          <div class="px-2 px-xl-3">
+            <p class="text-white font-16 mb-0">
+              <img src="./assests/images/icons/file-text-nav.svg" alt="" />
+              <span> Application id:</span> 1259
+            </p>
+          </div>
+          <div class="px-2 px-xl-3">
+            <p class="text-white font-16 mb-0">
+              <img src="./assests/images/icons/phone-white.svg" alt="" />
+              <span> Phone Number :</span> +966-540-066448
+            </p>
+          </div>
+          <div class="px-2 px-xl-3">
+            <p class="text-white font-16 mb-0">
+              <img src="./assests/images/icons/mail-white.svg" alt="" />
+              <span> Email :</span> ajksad@gmail.com
+            </p>
+          </div>
+
+          <button class="CTA-blue ml-2 ml-xl-3">
+            Sign Out
+
+            <img class="px-1" src="./assests/images/icons/signout-nav.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="multistep-container">
+      <div class="mobile-nav">
+        <div class="d-flex flex-row align-items-center justify-content-between position-relative ">
+          <div class="d-flex justify-content-between align-items-center">
+            <a class="onboarding-back" href="onboarding4.html">
+              <img src="./assests/images/icons/multistep-form/onboarding-back.svg" alt="" /></a>
+
+            <h4 class="d-lg-none text-md-center text-left font-20 fw-600 mb-0">
+              New Investment Account
+            </h4>
+          </div>
+          <div class="d-block d-lg-none">
+            <a class="profile-btn d-flex justify-content-center align-items-center">
+              <span class="d-flex justify-content-center align-items-center">R</span>
+            </a>
+          </div>
+        </div>
+        <div class="profile-dropdown nactive pt-2" aria-labelledby="dropdownMenuButton">
+          <a class="" href="#">
+            <p class="text-blue font-16 mb-0">
+              <!-- <img src="./assests/images/icons/file-text-nav.svg" alt="" /> -->
+              <span> Application id:</span> 1259
+            </p>
+          </a>
+          <a class="" href="#">
+            <p class="text-blue font-16 mb-0">
+              <!-- <img src="./assests/images/icons/phone-white.svg" alt="" /> -->
+              <span> Phone Number :</span> +966-540-066448
+            </p>
+          </a>
+          <a class="" href="#">
+            <p class="text-blue font-16 mb-0">
+              <!-- <img src="./assests/images/icons/mail-white.svg" alt="" /> -->
+              <span> Email :</span> ajksad@gmail.com
+            </p>
+          </a>
+          <button class="CTA-blue mt-3 mb-2">
+            Sign Out
+
+            <img class="px-1" src="./assests/images/icons/signout-nav.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="d-flex flex-row multistep-form-tabs">
+        <a class="d-flex flex-column in-progress">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/personal-information.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 1</p>
+          <span class="font-14 fw-500">Individual information</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column completed">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/personal-information.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 2</p>
+          <span class="font-14 fw-500">Contact information</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/personal-information.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 3</p>
+          <span class="font-14 fw-500">Professional Information</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/bank-account.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 4</p>
+          <span class="font-14 fw-500">Bank Account Details</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/know-Your-Client.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 5</p>
+          <span class="font-14 fw-500">Know Your Client</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <a class="d-flex flex-column">
+          <div class="row">
+            <div class="col flex-grow-0">
+              <div class="icon">
+                <img src="./assests/images/icons/multistep-form/documents.svg" alt="" />
+              </div>
+            </div>
+            <div class="col flex-grow-1 d-flex align-items-center">
+              <div class="line"></div>
+            </div>
+          </div>
+          <p class="font-12 fw-500">Step 6</p>
+          <span class="font-14 fw-500">Documents</span>
+          <b class="font-12 fw-600"></b>
+        </a>
+        <!-- <a class="d-flex flex-column">
+                    <div class="row">
+                        <div class="col flex-grow-0">
+                            <div class="icon">
+                                <img src="./assests/images/icons/multistep-form/summary.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col flex-grow-1 d-flex align-items-center">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <p class="font-12 fw-500">Step 7</p>
+                    <span class="font-14 fw-500">Summary</span>
+                    <b class="font-12 fw-600"></b>
+                </a> -->
+      </div>
+      <div class="multistep-form mb-0 mb-lg-5">
+        <div>
+          <div class="d-flex flex-row align-items-center in-progress">
+            <h2 class="text-black font-18">Application Summary</h2>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-sm-10 col-md-6 col-xl-6 mx-auto">
+                <div class="flex-grow-1 application-summary completed">
+                  <div class="d-flex align-items-center header">
+                    <div class="icon">
+                      <img class="" src="./assests/images/icons/Individual-information.svg" alt="" />
+                    </div>
+                    <span class="fw-500 font-16">Individual Information</span>
+                    <img class="ml-auto total-arrow" src="./assests/images/icons/chevron-right.svg" alt="" />
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center mt-4 footer">
+                    <div class="d-flex" style="gap: 10px">
+                      <p class="mb-0">Status : <span></span></p>
+                    </div>
+                    <div class="icon"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-10 col-md-6 col-xl-6 mx-auto">
+                <div class="flex-grow-1 application-summary completed">
+                  <div class="d-flex align-items-center header">
+                    <div class="icon">
+                      <img class="" src="./assests/images/icons/multistep-form/contact-info.svg" alt="" />
+                    </div>
+                    <span class="fw-500 font-16">Contact Information</span>
+                    <img class="ml-auto total-arrow" src="./assests/images/icons/chevron-right.svg" alt="" />
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center mt-4 footer">
+                    <div class="d-flex" style="gap: 10px">
+                      <p class="mb-0">Status : <span></span></p>
+                    </div>
+                    <div class="icon"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-10 col-md-6 col-xl-6 mx-auto">
+                <div class="flex-grow-1 application-summary incomplete">
+                  <div class="d-flex align-items-center header">
+                    <div class="icon">
+                      <img class="" src="./assests/images/icons/multistep-form/professional-info.svg" alt="" />
+                    </div>
+                    <span class="fw-500 font-16">Professional Information</span>
+                    <img class="ml-auto total-arrow" src="./assests/images/icons/chevron-right.svg" alt="" />
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center mt-4 footer">
+                    <div class="d-flex" style="gap: 10px">
+                      <p class="mb-0">Status : <span></span></p>
+                    </div>
+                    <div class="icon"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-10 col-md-6 col-xl-6 mx-auto">
+                <div class="flex-grow-1 application-summary not-started">
+                  <div class="d-flex align-items-center header">
+                    <div class="icon">
+                      <img class="" src="./assests/images/icons/multistep-form/bank-account-2.svg" alt="" />
+                    </div>
+                    <span class="fw-500 font-16">Bank Account Details</span>
+                    <img class="ml-auto total-arrow" src="./assests/images/icons/chevron-right.svg" alt="" />
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center mt-4 footer">
+                    <div class="d-flex" style="gap: 10px">
+                      <p class="mb-0">Status : <span></span></p>
+                    </div>
+                    <div class="icon"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-10 col-md-6 col-xl-6 mx-auto">
+                <div class="flex-grow-1 application-summary completed">
+                  <div class="d-flex align-items-center header">
+                    <div class="icon">
+                      <img class="" src="./assests/images/icons/multistep-form/know-your-client-2.svg" alt="" />
+                    </div>
+                    <span class="fw-500 font-16">Know Your Client</span>
+                    <img class="ml-auto total-arrow" src="./assests/images/icons/chevron-right.svg" alt="" />
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center mt-4 footer">
+                    <div class="d-flex" style="gap: 10px">
+                      <p class="mb-0">Status : <span></span></p>
+                    </div>
+                    <div class="icon"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-10 col-md-6 col-xl-6 mx-auto">
+                <div class="flex-grow-1 application-summary completed">
+                  <div class="d-flex align-items-center header">
+                    <div class="icon">
+                      <img class="" src="./assests/images/icons/multistep-form/documents-2.svg" alt="" />
+                    </div>
+                    <span class="fw-500 font-16">Documents</span>
+                    <img class="ml-auto total-arrow " src="./assests/images/icons/chevron-right.svg" alt="" />
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center mt-4 footer">
+                    <div class="d-flex" style="gap: 10px">
+                      <p class="mb-0">Status : <span></span></p>
+                    </div>
+                    <div class="icon"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="d-flex justify-content-center justify-content-lg-start my-0 my-lg-3" style="gap: 20px">
+            <button class="CTA-blue summary-btn" onclick="window.location='onboarding5.html'" style="min-width: 200px">
+              Submit
+            </button>
+            <!-- <button class="CTA-blue text-white" onclick="window.location='onboarding5.html'">Add</button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="d-none d-md-flex flex-row justify-content-center">
+      <div class="">
+        <p class="py-2 mb-0 text-white text-center font-12">
+          2023 © AlphaInvest by AlphaCentrix
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./assests/js/jquery.min.js"></script>
+  <script src="./assests/js/popper.min.js"></script>
+  <script src="./assests/js/bootstrap.min.js"></script>
+  <script src="./assests/js/custom/formFields.js"></script>
+  <script src="./assests/js/custom/onboading-nav.js"></script>
+</body>
+
+</html>

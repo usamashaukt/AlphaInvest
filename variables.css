@@ -1,0 +1,289 @@
+@font-face {
+  font-family: Montserrat;
+  font-weight: 100;
+  src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 200;
+  src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 300;
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 600;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 800;
+  src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 900;
+  src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+* {
+
+  /* scrollbar colors  */
+  --scrollbar-bg-track: #dadada;
+  --scrollbar-bg-thumb: #888;
+  --scrollbar-bg-thumb-hover: #555;
+
+
+  /* main body  */
+  --main-font-english: "Montserrat", serif;
+  --main-font-arabic: "Montserrat", serif;
+
+  --primary-color: #025d7b;
+  /* --secondary-color: #025d7b; */
+  --tertiary-color: #0c2335;
+  --quaternary-color: #fafafa;
+
+  --body-bg-color: var(--quaternary-color);
+  --general-color-b: #000000;
+  --general-color-w: #ffffff;
+  --general-color-r: #e2231a;
+  ;
+  /* navabr */
+  --nav-height: 93px;
+  --nav-link-color: var(--quaternary-color);
+  --notification-bg-color: var(--general-color-r);
+  --notification-text-color: var(--general-color-w);
+  --profile-bg-color: var(--primary-color);
+  --profile-text-color: var(--general-color-w);
+
+
+  /* sidebar color variables  */
+
+  --sidebar-bg-color: var(--primary-color);
+  /* --sidebar-link-bg-color: #dbf6ff; */
+  --sidebar-link-bg-color: #dbf6ff;
+  --sidebar-link-text-color: var(--general-color-w);
+  --sidebar-link-active-bg-color: #dbf6ff;
+  --sidebar-link-active-text-color: var(--primary-color);
+  --sidebar-link-hover-bg-color: #006e93;
+  --sidebar-ddown-link-hover-bg-color: #BEEFFF;
+  --sidebar-ddown-link-active-bg-color: var(--primary-color);
+  --sidebar-ddown-link-active-text-color: var(--general-color-w);
+  --sidebar-ddown-line-bg-color: var(--primary-color);
+
+
+
+
+
+
+
+  /* inputs select calendar  */
+  --input-label-color: #000000;
+  --input-placeholder-color: #727272;
+  --input-text-color: #313131;
+  --input-bg-color: #fafafa;
+  --input-border-color: #BABFC7;
+  --input-error-color: var(--general-color-r);
+  --input-validating-color: var(--primary-color);
+  --input-focus-border-color: var(--primary-color);
+  --input-focus-bg-color: #fafafa;
+  --input-hover-border-color: #727272;
+  --input-hover-bg-color: #fcfcfc;
+  --input-disabled-border-color: #727272;
+  --input-disabled-bg-color: #FCFCFC;
+  --select-li-color: #313131;
+  --select-li-hover-bg-color: #f7f7f7;
+  --radio-border-color: var(--primary-color);
+  --radio-border-hover-color: #004c65;
+  --radio-text-color: #000;
+  --radio-text-bg-color: #fafafa;
+  --radio-text-border-color: #babfc7;
+  --input-radio-border-hover-color: #727272;
+  --input-radio-bg-checked: #dbf6ff;
+  --input-radio-border-checked: var(--primary-color);
+  --input-radio-color-checked: var(--primary-color);
+  --input-radio-bg-checked-hover: #e6f9ff;
+  --input-radio-border-checked-hover: #009acd;
+  --input-radio-bg-disabled-checked: #e6f9ff;
+  --input-radio-border-disabled-checked: #009acd;
+  --input-border-checkbox-after: #ffffff;
+  --input-border-checkbox-before: var(--primary-color);
+  --input-bg-checkbox-before: var(--primary-color);
+  --input-border-checkbox-disabled-hover-before: #004c65;
+  --input-bg-checkbox-disabled-label-hover-before: #004c65;
+  --input-border-checkbox-disabled-label-hover-before: #025d7b;
+  --switch-input-border-color-before: #727272;
+  --switch-input-bg-after: #727272;
+  --switch-input-border-color-checked: #025d7b;
+  --switch-input-bg-checked: #025d7b;
+  --switch-input-border-disabled-hover: #babfc7;
+  --switch-input-bg-disabled-hover: #babfc7;
+  --switch-input-border-disable-checked-label-hover: #004c65;
+  --switch-input-bg-disable-checked-label-hover: #004c65;
+  --switch-input-border-disabled-before: #babfc7;
+  --switch-input-bg-disabled-after: #babfc7;
+
+
+
+  /* CTA-buttons */
+  --cta-border-color: #025d7b;
+  --cta-bg-color: #025d7b;
+  --cta-text-color: #fff;
+  --cta-text-color-hover: #fff;
+  --cta-border-color-hover: #025d7b;
+  --cta-bg-color-hover: #004c65;
+  --cta-border-color-disabled: #025d7b;
+  --cta-bg-color-disabled: #025d7b;
+  --cta-border-text-color: #025d7b;
+  --cta-blue-bg-color-hover: var(--primary-color);
+  --cta-blue-text-color-hover: #fff;
+
+  --cta-border-disabled-text-color: #025d7b;
+
+  /* export button*/
+
+  --export-border-btn: #000;
+  --export-text-color: #0b0c0c;
+
+
+  /* tab buttons */
+
+  --tab-btns-border: #babfc7;
+  --tab-btns-bg: #efefef;
+  --tab-btns-text-color: #727272;
+  --tab-btns-border-active: #025d7b;
+  --tab-btns-bg-active: #025d7b;
+  --tab-btns-text-color-active: #ffffff;
+  --tab-btns-border-hover: #727272;
+  --tab-btns-bg-hover: #dadada;
+  --tab-btns-text-color-hover: #727272;
+  --tab-btns-bg--active-hover: #004c65;
+  --tab-btns-text-color-active-hover: #ffff;
+
+
+  /* Pie chart  */
+  --pie-chart-bg: red;
+  --pie-chart-p-color: #000;
+
+  /* line chart  */
+  --line-chart-bg: red;
+  --line-chart-p-color: #000;
+
+
+  /* S-table */
+
+  --s-table-border: #babfc7;
+  --s-table-bg: #fff;
+  --s-table-thread-bg: #f8f8f8;
+  --s-table-tbody-bg: #f8f8f8;
+  --s-table-drag-drop-bg: #f8f8f8;
+  --s-table-thread-text-color: #000;
+  --s-table-bg-thread-after: #727272;
+  --s-table-bg-thread-span: #000;
+  --s-table-bg-thread-before-span: #000;
+  --s-table-bg-thread-after-span: #000;
+  --s-table-bg-status: red;
+  --s-table-text-color-status: #000;
+  --s-table-drag-drop-text-color: #727272;
+  --s-table-bg-keywords-text-color: #fff;
+  --s-table-bg-keywords-bg: #025d7b;
+  --s-table-total: #f2fcff;
+
+
+
+
+
+
+  /* responsive css */
+  --sidebar-collapse-item-active-bg-color: #eafaff;
+  --sidebar-collapse-item-active-hover-bg-color: #eafaff;
+  --sidebar-collapse-item-hover-text-color: #025d7b;
+  --sidebar-collpase-dropdown-bg-color: #eafaff;
+
+
+
+
+  /* onboarding */
+  --onboarding-main-bg-color: var(--primary-color);
+  --general-color-y: #ff9f00;
+  --general-color-g: #169b00;
+  --onboarding-bg-color: #fff;
+  --onboarding-text-color: white;
+
+
+  /* language switcher  */
+  --language-switcher-btn-bg-color: #f1f1f1;
+  --language-switcher-bg-color-hover: var(--primary-color);
+  --language-switcher-border-color-hover: #f1f1f1;
+  --language-switcher-bg-color: var(--primary-color);
+  --language-switcher-border-color: #f1f1f1;
+  --language-switcher-text-color: white;
+
+  /* input fields */
+
+  --input-left-icon-border-color: #72727290;
+  --input-security-code-border: #ccc;
+
+  /* multistep-container */
+  --multtstep-contianer-bg-color: #f1f1f1;
+  /* multistep form tabs  */
+  --multtstep-tabs-border-color: #727272;
+  --multtstep-tabs-text-p-color: #959595;
+  --multtstep-tabs-text-color: #727272;
+  --multtstep-tabs-bg-color: #727272;
+  --multtstep-tabs-inprogress-text-color: #025d7b;
+  --multtstep-tabs-inprogress-border-color: #025d7b;
+  --multtstep-tabs-inprogress-bg-color: #025d7b;
+  --multtstep-tabs-inprogress-text-b-color: var(--general-color-y);
+  --multtstep-tabs-completed-text-b-color: var(--general-color-g);
+  --multtstep-tabs-completed-border-color: var(--general-color-g);
+  --multtstep-tabs-completed-bg-color: var(--general-color-g);
+
+  /* multistep forms */
+  --multistep-form-border: #babfc7;
+  --multistep-form-border-accordian: #babfc7;
+  --multistep-form-icon-border-color: #727272;
+
+  /* application-summary */
+  --multistep-form-summary-border-color: #959595;
+  --multistep-form-summary-header-bg-color: #025d7b;
+  --multistep-form-summary-footer-text-color: #727272;
+  --multistep-form-summary-completed-border-color: #169b00;
+  --multistep-form-summary-completed-bg-color: #169b00;
+  --multistep-form-summary-incomplete-border-color: #ff9f00;
+  --multistep-form-summary-incomplete-bg-color: #ff9f00;
+  --multistep-form-summary-notstarted-border-color: #d50000;
+  --multistep-form-summary-notstarted-bg-color: #d50000;
+
+
+
+  /* Footer onboarding screen main  */
+  --footer-bg-color: #025d7b;
+
+}
